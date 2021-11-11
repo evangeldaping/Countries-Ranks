@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "./Layout.module.css";
 
-const Layout = ({ children, title = "Countries Ranks" }) => {
+const Layout = ({ children, title = "World Ranks" }) => {
     return (
         <div className={styles.container}>
             <Head>
